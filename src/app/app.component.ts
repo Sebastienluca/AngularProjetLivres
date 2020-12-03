@@ -21,5 +21,6 @@ export class AppComponent {
 	  measurementId: "G-TYB2EGS58Q"
     };
     firebase.initializeApp(config);
+    console.log('connexion a la base');
   }
 }

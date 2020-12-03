@@ -58,6 +58,7 @@ export class BooksService {
         if(bookEl === book) {
           return true;
         }
+        return false
       }
     );
     this.books.splice(bookIndexToRemove, 1);
